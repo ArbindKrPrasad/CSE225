@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arbind.cse225">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity android:name=".P14HeaderFooter">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".P13HorixontalToolbar"></activity>
+        <activity android:name=".P12HeaderFooter">
+
+        </activity>
+        <activity android:name=".P11Battery" />
+        <activity android:name=".H3DateTimePicker" />
+        <activity android:name=".P10TimePicker">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".P9DatePicker" /> <!-- <activity android:name=".P8Mybroadcast" /> -->
+        <activity android:name=".P8Alarm" />
+        <activity android:name=".P7Notification" />
+        <activity android:name=".H2ListWithCustomToast" />
+        <activity android:name=".H1SubmitSuccessful" />
+        <activity android:name=".P6ProgressDialog" />
+        <activity android:name=".H1ProgressBar" />
+        <activity android:name=".H1SignupPage" />
+        <activity android:name=".H1SplitScreenWithProgressBar" />
+        <activity android:name=".P5MainSplashScreen" />
+        <activity android:name=".P5SplashScreen" />
+        <activity android:name=".P4ProgressBar2" />
+        <activity android:name=".P3ProgressBar" />
+        <activity android:name=".P2RatingBar" />
+        <activity android:name=".P1Toolbar" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

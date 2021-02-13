@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CSE225</string>
+    <string name="indian_states" />
+
+    <string-array name="india_states">
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Delhi</item>
+        <item>Gujarat</item>
+        <item>Jammu and Kashmir</item>
+        <item>Kerala</item>
+        <item>Maharashtra</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Uttar Pradesh</item>
+    </string-array>
+</resources>
