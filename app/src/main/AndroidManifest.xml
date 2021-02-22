@@ -9,17 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
-        <activity android:name=".P14HeaderFooter">
+
+        <activity android:name=".P15FragmentMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".P13HorixontalToolbar"></activity>
-        <activity android:name=".P12HeaderFooter">
+        <activity android:name=".P14HeaderFooter">
 
         </activity>
+        <activity android:name=".P13HorixontalToolbar" />
+        <activity android:name=".P12HeaderFooter" />
         <activity android:name=".P11Battery" />
         <activity android:name=".H3DateTimePicker" />
         <activity android:name=".P10TimePicker">
